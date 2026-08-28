@@ -1,15 +1,15 @@
 export interface LoginUserData {
-    username: string ,
+    email: string ,
     password: string ,
 }
 
 export interface RegisterUserData extends LoginUserData {
-    email: string 
+    username: string 
 }
 
 export interface LoginResponse {
     message : string ,
-    token : string
+    accessToken : string
 }
 
 export interface RegisterResponse {

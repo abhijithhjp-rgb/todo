@@ -54,7 +54,7 @@ router.post("/user/login" ,async (req ,res) =>{
 
             res.status(200).json({
                 message: "user logged in"  ,
-                token:accessToken
+                accessToken:accessToken
             })
         }
         else {

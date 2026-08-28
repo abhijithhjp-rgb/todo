@@ -19,13 +19,13 @@ console.log("6. API request finished");
     return response ;
 } 
 
-export async function login(
-    username:string ,
+export async function loginUser(
+    email:string ,
     password:string
 ){
 
     const body: LoginUserData = {
-        username ,
+        email ,
         password
     }
 
